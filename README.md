@@ -1,29 +1,25 @@
 MOOSE
 =====
 
-[![Build status](https://civet.inl.gov/idaholab/moose/master/branch_status.svg)](https://civet.inl.gov/repo/idaholab/moose/)
 
-The Multiphysics Object-Oriented Simulation Environment (MOOSE) is a finite-element, multiphysics framework primarily developed by [Idaho National Laboratory](http://www.inl.gov). It provides a high-level interface to some of the most sophisticated [nonlinear solver technology](http://www.mcs.anl.gov/petsc/) on the planet. MOOSE presents a straightforward API that aligns well with the real-world problems scientists and engineers need to tackle. Every detail about how an engineer interacts with MOOSE has been thought through, from the installation process through running your simulation on state of the art supercomputers, the MOOSE system will accelerate your research.
-
-Some of the capability at your fingertips:
-
-* Fully-coupled, fully-implicit multiphysics solver
-* Dimension independent physics
-* Automatically parallel (largest runs >100,000 CPU cores!)
-* Modular development simplifies code reuse
-* Built-in mesh adaptivity
-* Continuous and Discontinuous Galerkin (DG) (at the same time!)
-* Intuitive parallel multiscale solves (see videos below)
-* Dimension agnostic, parallel geometric search (for contact related applications)
-* Flexible, pluggable graphical user interface
-* ~30 pluggable interfaces allow specialization of every part of the solve
-
-More Information
-================
-
-**For more information, including installation instructions, please see the official website: [mooseframework.org](https://mooseframework.org)**
-
-Contributing
-============
-
-For information on how to contribute code changes to MOOSE please [see this article](https://mooseframework.org/framework/contributing.html).
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-moose" class="anchor" aria-hidden="true" tabindex="-1" href="#moose"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">驼鹿</font></font></h1>
+<p dir="auto"><a href="https://civet.inl.gov/repo/idaholab/moose/" rel="nofollow"><img src="https://camo.githubusercontent.com/29dde3f3f5cd07a6de6bd9d4c71cfe3dd455cb232d2b1773bb2155741f972ca0/68747470733a2f2f63697665742e696e6c2e676f762f696461686f6c61622f6d6f6f73652f6d61737465722f6272616e63685f7374617475732e737667" alt="构建状态" data-canonical-src="https://civet.inl.gov/idaholab/moose/master/branch_status.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多物理场面向对象仿真环境 (MOOSE) 是一个有限元多物理场框架，主要由</font></font><a href="http://www.inl.gov" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">爱达荷国家实验室</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发。</font><font style="vertical-align: inherit;">它为地球上一些最复杂的</font></font><a href="http://www.mcs.anl.gov/petsc/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非线性求解器技术</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供了高级接口。</font><font style="vertical-align: inherit;">MOOSE 提供了一个简单的 API，非常适合科学家和工程师需要解决的现实问题。</font><font style="vertical-align: inherit;">关于工程师如何与 MOOSE 交互的每个细节都经过深思熟虑，从安装过程到在最先进的超级计算机上运行模拟，MOOSE 系统将加速您的研究。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些触手可及的功能：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">全耦合、全隐式多物理场求解器</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与维度无关的物理</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动并行（最大运行 &gt;100,000 个 CPU 核心！）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模块化开发简化代码重用</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内置网格自适应性</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">连续和不连续伽辽金 (DG)（同时！）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直观的并行多尺度求解（参见下面的视频）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尺寸不可知的并行几何搜索（用于接触相关的应用程序）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">灵活、可插拔的图形用户界面</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">约 30 个可插拔接口允许解决方案的每个部分专业化</font></font></li>
+</ul>
+<h1 tabindex="-1" dir="auto"><a id="user-content-more-information" class="anchor" aria-hidden="true" tabindex="-1" href="#more-information"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多信息</font></font></h1>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多信息，包括安装说明，请参阅官方网站：</font></font><a href="https://mooseframework.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mooseframework.org</font></font></a></strong></p>
+<h1 tabindex="-1" dir="auto"><a id="user-content-contributing" class="anchor" aria-hidden="true" tabindex="-1" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h1>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关如何向 MOOSE 贡献代码更改的信息，请</font></font><a href="https://mooseframework.org/framework/contributing.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参阅本文</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+</article></div>
